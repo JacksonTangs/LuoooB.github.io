@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="完整安装GNS3(关联GNS3VM), June">
-    <meta name="description" content="GNS3是思科的一款模拟器，支持路由器，防火墙，二、三层交换机设备。能够胜任ccnp实验。由于发现网上关于GNS3的教程还有资料停留在气球版（老版本），已经不适应现在的新东西了。所以写此博客给大家。关于现在最新版gns3是2.1.5，下载服">
+    <meta name="description" content="本篇博客完整介绍了GNS3、GNS3VM、Wireshark及SecureCRT安装关联的完整步骤，小白流畅搭建起环境并能使用，当然，遇到问题右手边查看排错篇。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -391,7 +391,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-01-01
+                    2018-07-10
                 </div>
                 
 
@@ -483,8 +483,7 @@
 <p>这是交换机的</p>
 <p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-35-24.png" alt="71"></p>
 <p>这是路由器的</p>
-<p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-37-03.png" alt="72"></p>
-<h2 id="注意了！上面两张截图我们可以看到，这里IOU在上传时候是有一个过程的，"><a href="#注意了！上面两张截图我们可以看到，这里IOU在上传时候是有一个过程的，" class="headerlink" title="注意了！上面两张截图我们可以看到，这里IOU在上传时候是有一个过程的，"></a>注意了！上面两张截图我们可以看到，这里IOU在上传时候是有一个过程的，</h2><h2 id="就是那两个进度条。如果没有，就说明出问题了。"><a href="#就是那两个进度条。如果没有，就说明出问题了。" class="headerlink" title="就是那两个进度条。如果没有，就说明出问题了。"></a>就是那两个进度条。如果没有，就说明出问题了。</h2><p>（不一定是你之前的步骤出了问题。好多情况是电脑本身环境问题，如果说出现了进度条，那恭喜你，离成功不远了。我们继续。）</p>
+<p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-37-03.png" alt="72"><br>注意了！上面两张截图我们可以看到，这里IOU在上传时候是有一个过程的，就是那两个进度条。如果没有，就说明出问题了。<br>（不一定是你之前的步骤出了问题。好多情况是电脑本身环境问题，如果说出现了进度条，那恭喜你，离成功不远了。我们继续。）</p>
 <p>上传结束后是这个样子滴。<br>然后我们apply一下，点击OK。</p>
 <p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-37-24.png" alt="73"></p>
 <p>回到主页面以后我们可以看到右边栏出现了两个绿点，或者一个。<br>其中有一个就是 我们配置的GNS3VM的名字。<br>绿点代表我们已经关联成功了。</p>
@@ -534,7 +533,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://127.0.0.1:4000/2018/01/01/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/">http://127.0.0.1:4000/2018/01/01/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</a>
+                    <a href="http://127.0.0.1:4000/2018/07/10/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/">http://127.0.0.1:4000/2018/07/10/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1063,7 +1062,7 @@
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2018/01/01/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/">
+                <a href="/2018/07/10/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/">
                     <div class="card-image">
                         
                         
@@ -1075,12 +1074,12 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            GNS3是思科的一款模拟器，支持路由器，防火墙，二、三层交换机设备。能够胜任ccnp实验。由于发现网上关于GNS3的教程还有资料停留在气球版（老版本），已经不适应现在的新东西了。所以写此博客给大家。关于现在最新版gns3是2.1.5，下载服
+                            本篇博客完整介绍了GNS3、GNS3VM、Wireshark及SecureCRT安装关联的完整步骤，小白流畅搭建起环境并能使用，当然，遇到问题右手边查看排错篇。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-01-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-07-10
                             </span>
                         <span class="publish-author">
                             
