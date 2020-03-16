@@ -249,11 +249,11 @@ mark {
 
 /*顶部颜色渐变 */
 .bg-color {
-    background-image: linear-gradient(to right, #29088A 0%, #000 100%);
+    background-image: linear-gradient(to right, #01DFD7 0%, #585858 100%);
 }
 /*标签颜色渐变 */
 .text-color {
-    color: #29088A !important;
+    color: #01DFD7 !important;
 }
 
 .white-color {
@@ -266,7 +266,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #000 0%, #29088A 100%);
+    background: linear-gradient(to right, #585858 0%, #01DFD7 100%);
     opacity: 0.8;
 }
 
