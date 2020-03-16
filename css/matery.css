@@ -250,6 +250,7 @@ mark {
 /*顶部颜色渐变 */
 .bg-color {
     background-image: linear-gradient(to right, #AC58FA 0%, #585858 100%);
+	opacity: 0.7;
 }
 /*标签颜色渐变 */
 .text-color {
