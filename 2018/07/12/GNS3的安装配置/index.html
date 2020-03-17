@@ -413,7 +413,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>GNS3是思科的一款模拟器，支持路由器，防火墙，二、三层交换机设备。能够胜任ccnp实验。由于发现网上关于GNS3的教程还有资料停留在气球版（老版本），已经不适应现在的新东西了。所以写此博客给大家。关于现在最新版gns3是2.1.5，下载服务器在国外，国内可能无法下载，大家可以加[QQ群]（675342331）群文件自取，群文件还有大量镜像，大家可以加进来自由下载。关于这篇博客，不断更，有问题可以直接联系我，几乎全天在线。后期还会有更强大的模拟器EVE—NG。这个是后话。<br>话不多说，直接上干货。（多图预警。）<br>如果有问题，主页右上角有我QQ。欢迎斧正。</p>
+                <p>GNS3是思科的一款模拟器，支持路由器，防火墙，二、三层交换机设备。能够胜任ccnp实验。由于发现网上关于GNS3的教程还有资料停留在气球版（老版本），已经不适应现在的新东西了。所以写此博客给大家。关于现在最新版gns3是2.1.5，下载服务器在国外，国内可能无法下载，大家可以加[QQ群]（675342331）群文件自取，群文件还有大量镜像，大家可以加进来自由下载。关于这篇博客，不断更，有问题可以直接联系我，几乎全天在线。后期还会有更强大的模拟器EVE—NG。这个是添加IOU设备后话。<br>话不多说，直接上干货。（多图预警。）<br>如果有问题，主页右上角有我QQ。欢迎斧正。</p>
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>！！！安装路径一定不要出现中文！！！！</p>
 <h3 id="第一：所需软件"><a href="#第一：所需软件" class="headerlink" title="第一：所需软件"></a>第一：所需软件</h3><p>1，GNS3-2.1.5-all-in-one    //GNS3客户端<br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-14-07.png" alt="GNS3客户端"></p>
 <p>2，GNS3VM-for-vmware     //对应版本的GNS3虚拟机<br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-15-00.png" alt="GNS3VM"></p>
@@ -503,7 +503,7 @@
 <p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-41-08.png" alt="80"></p>
 <p>双击开启设备看一下。</p>
 <p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-41-25.png" alt="89"><br>到此，我们的iou设备添加成功。</p>
-<h4 id="关联CRT"><a href="#关联CRT" class="headerlink" title="关联CRT"></a>关联CRT</h4><p>不多说，上图。不明白的话，群里喊我，或者给我回复。</p>
+<h3 id="关联CRT与Wireshark"><a href="#关联CRT与Wireshark" class="headerlink" title="关联CRT与Wireshark"></a>关联CRT与Wireshark</h3><h4 id="关联CRT"><a href="#关联CRT" class="headerlink" title="关联CRT"></a>关联CRT</h4><p>不多说，上图。不明白的话，群里喊我，或者给我回复。</p>
 <p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-42-06.png" alt="81"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-42-20.png" alt="82"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-42-29.png" alt="83"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-42-43.png" alt="84"></p>
 <p>下面要注意一下了，下面大方框里填的是SecureCRT的绝对路径。<br>添加完绝对路径之后，上面的下拉栏变成了custom，我们就点击save<br>并给他起个名，叫CRT就行，名字你随意。张三李四王二麻子都行。<br>然后一路ok下去。</p>
 <p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-43-31.png" alt="85"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-44-36.png" alt="86"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-44-50.png" alt="87"></p>
@@ -512,7 +512,7 @@
 <h4 id="关联wireshark"><a href="#关联wireshark" class="headerlink" title="关联wireshark"></a>关联wireshark</h4><p>直接上图！</p>
 <p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-46-31.png" alt="90"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-46-41.png" alt="91"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-48-37.png" alt="92"><br>这里注意一下，路径同样是wireshark的安装路径。</p>
 <p>抓包测试一下。</p>
-<p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-48-55.png" alt="93"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-05.png" alt="90"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-17.png" alt="90"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-31.png" alt="90"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-40.png" alt="90"><br>至此大功告成，要是有什么不会的还有出问题的，群里喊我。至于中间安装出了问题的，我会另开帖子，将我积累的问题解决办法做一个总结，给大家参考。<br>转载请注明出处。感谢。y</p>
+<p><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-48-55.png" alt="93"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-05.png" alt="90"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-17.png" alt="90"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-31.png" alt="90"><br><img src="/image/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/Snipaste_2018-06-29_18-49-40.png" alt="90"><br>至此大功告成，要是有什么不会的还有出问题的，群里喊我。至于中间安装出了问题的，我会另开帖子，将我积累的问题解决办法做一个总结，给大家参考。<br>转载请注明出处。感谢。</p>
 
             </div>
             <hr/>
@@ -1026,7 +1026,10 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            GNS3环境下，如何安装ASAv思科下一代防火墙，以及修改默认终端，将vnc改成telnet，通过终端命令行来进行操作。
+                            GNS3安装ASAv 981
+大家好，我是June，这篇博客说一下怎样安装ASAv981 以及 telnet连接（因为默认是vnc，很不好用）如果有问题，主页右上角有我QQ。欢迎斧正。
+
+准备工作：ASAv981镜像一只（在群文件懒人包）搭
                         
                     </div>
                     <div class="publish-info">
@@ -1037,8 +1040,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/GNS3/" class="post-category">
-                                    GNS3
+                            <a href="/categories/ASAv/" class="post-category">
+                                    ASAv
                                 </a>
                             
                             
@@ -1054,10 +1057,6 @@
                     
                     <a href="/tags/GNS3/">
                         <span class="chip bg-color">GNS3</span>
-                    </a>
-                    
-                    <a href="/tags/ASAv/">
-                        <span class="chip bg-color">ASAv</span>
                     </a>
                     
                 </div>

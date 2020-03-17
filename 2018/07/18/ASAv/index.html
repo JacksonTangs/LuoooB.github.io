@@ -5,7 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="GNS3安装ASAv 981, June">
-    <meta name="description" content="GNS3环境下，如何安装ASAv思科下一代防火墙，以及修改默认终端，将vnc改成telnet，通过终端命令行来进行操作。">
+    <meta name="description" content="GNS3安装ASAv 981
+大家好，我是June，这篇博客说一下怎样安装ASAv981 以及 telnet连接（因为默认是vnc，很不好用）如果有问题，主页右上角有我QQ。欢迎斧正。
+
+准备工作：ASAv981镜像一只（在群文件懒人包）搭">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -370,10 +373,6 @@
                                 <span class="chip bg-color">GNS3</span>
                             </a>
                         
-                            <a href="/tags/ASAv/">
-                                <span class="chip bg-color">ASAv</span>
-                            </a>
-                        
                     </div>
                     
                 </div>
@@ -382,8 +381,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/GNS3/" class="post-category">
-                                GNS3
+                            <a href="/categories/ASAv/" class="post-category">
+                                ASAv
                             </a>
                         
                     </div>
@@ -418,7 +417,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>GNS3安装ASAv 981</p>
-<p>大家好，我是June，这篇博客说一下怎样安装ASAv981 以及 telnet连接（因为默认是vnc，很不好用）<br>如果有问题，主页有我QQ。欢迎斧正。</p>
+<p>大家好，我是June，这篇博客说一下怎样安装ASAv981 以及 telnet连接（因为默认是vnc，很不好用）<br>如果有问题，主页右上角有我QQ。欢迎斧正。</p>
 <hr>
 <h2 id="准备工作："><a href="#准备工作：" class="headerlink" title="准备工作："></a>准备工作：</h2><h4 id="ASAv981镜像一只（在群文件懒人包）"><a href="#ASAv981镜像一只（在群文件懒人包）" class="headerlink" title="ASAv981镜像一只（在群文件懒人包）"></a>ASAv981镜像一只（在群文件懒人包）</h4><h4 id="搭建好的GNS3环境一套（没有安装好的请移步GNS3详细安装步骤）"><a href="#搭建好的GNS3环境一套（没有安装好的请移步GNS3详细安装步骤）" class="headerlink" title="搭建好的GNS3环境一套（没有安装好的请移步GNS3详细安装步骤）"></a>搭建好的GNS3环境一套（没有安装好的请移步<a href="http://47.105.94.173/2018/07/12/GNS3%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/" target="_blank" rel="noopener">GNS3详细安装步骤</a>）</h4><h2 id="旧版本步骤："><a href="#旧版本步骤：" class="headerlink" title="旧版本步骤："></a>旧版本步骤：</h2><ol>
 <li><h5 id="打开GNS3环境，将Security-devices一栏选中为installed-amp-Avibalabala"><a href="#打开GNS3环境，将Security-devices一栏选中为installed-amp-Avibalabala" class="headerlink" title="打开GNS3环境，将Security devices一栏选中为installed&amp;Avibalabala"></a>打开GNS3环境，将<strong><em>Security devices</em></strong>一栏选中为<strong><em>installed&amp;Avibalabala</em></strong></h5> <img src="/image/ASAv/1.png" alt="1"></li>
@@ -460,7 +459,7 @@
 <h4 id="finish安装完成。"><a href="#finish安装完成。" class="headerlink" title="finish安装完成。"></a>finish安装完成。</h4><p><img src="/image/ASAv/x7.jpg" alt="x7"></p>
 <h4 id="OK！"><a href="#OK！" class="headerlink" title="OK！"></a>OK！</h4><p><img src="/image/ASAv/x8.jpg" alt="x8"></p>
 <h4 id="然后在主页就可以找到我们安装的ASAv镜像了。"><a href="#然后在主页就可以找到我们安装的ASAv镜像了。" class="headerlink" title="然后在主页就可以找到我们安装的ASAv镜像了。"></a>然后在主页就可以找到我们安装的ASAv镜像了。</h4><p><img src="/image/ASAv/x9.jpg" alt="x9"></p>
-<p>综上就是新旧版本的gns3安装asav的步骤。大佬绕行。下面就是如何使用了。</p>
+<p>##综上就是新旧版本的gns3安装asav的步骤。大佬绕行。<br>##下面就是如何使用了。</p>
 <ol start="15">
 <li><h5 id="拖出一个来，开机测试一下。-可以看到。能够正常开机了。这里会重启一次，时间比较长，等一会就行。"><a href="#拖出一个来，开机测试一下。-可以看到。能够正常开机了。这里会重启一次，时间比较长，等一会就行。" class="headerlink" title="拖出一个来，开机测试一下。 可以看到。能够正常开机了。这里会重启一次，时间比较长，等一会就行。"></a>拖出一个来，开机测试一下。 可以看到。能够正常开机了。这里会重启一次，时间比较长，等一会就行。</h5><p><img src="/image/ASAv/18.png" alt="18"></p>
 </li>
@@ -558,10 +557,6 @@
                             
                                 <a href="/tags/GNS3/">
                                     <span class="chip bg-color">GNS3</span>
-                                </a>
-                            
-                                <a href="/tags/ASAv/">
-                                    <span class="chip bg-color">ASAv</span>
                                 </a>
                             
                         </div>
@@ -1007,7 +1002,10 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            GNS3环境下，如何安装ASAv思科下一代防火墙，以及修改默认终端，将vnc改成telnet，通过终端命令行来进行操作。
+                            GNS3安装ASAv 981
+大家好，我是June，这篇博客说一下怎样安装ASAv981 以及 telnet连接（因为默认是vnc，很不好用）如果有问题，主页右上角有我QQ。欢迎斧正。
+
+准备工作：ASAv981镜像一只（在群文件懒人包）搭
                         
                     </div>
                     <div class="publish-info">
@@ -1018,8 +1016,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/GNS3/" class="post-category">
-                                    GNS3
+                            <a href="/categories/ASAv/" class="post-category">
+                                    ASAv
                                 </a>
                             
                             
@@ -1036,10 +1034,6 @@
                     
                     <a href="/tags/GNS3/">
                         <span class="chip bg-color">GNS3</span>
-                    </a>
-                    
-                    <a href="/tags/ASAv/">
-                        <span class="chip bg-color">ASAv</span>
                     </a>
                     
                 </div>
